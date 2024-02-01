@@ -51,6 +51,14 @@ loadUCLM() {
   launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*
 }
 
+
+# qfind - used to quickly find files that contain a string in a directory
+qfind () {
+  find . -exec grep -l -s $1 {} \;
+  return 0
+}
+
+
 # added by Miniconda3 4.3.11 installer
 # export PATH="/Users/manuel/libs/miniconda3/bin:$PATH"
 
