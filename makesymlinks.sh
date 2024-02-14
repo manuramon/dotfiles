@@ -5,6 +5,7 @@
 # get from https://github.com/michaeljsmalley/dotfiles
 ############################
 
+
 ########## Variables
 
 dir=~/dotfiles                    # dotfiles directory
