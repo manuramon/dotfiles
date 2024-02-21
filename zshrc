@@ -157,3 +157,6 @@ setopt hist_find_no_dups
 
 # perlbrew
 source $HOME/perl5/perlbrew/etc/bashrc
+
+# bioperl
+export PERL5LIB=${PERL5LIB}:$HOME/libs/BioPerl-1.7.8
