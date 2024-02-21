@@ -90,6 +90,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # export Elsevier_API=ee52dba4e3ed5824cf6372b339643266
 
 
+# perlbrew
+source $HOME/perl5/perlbrew/etc/bashrc
 
 
 ### EOF
