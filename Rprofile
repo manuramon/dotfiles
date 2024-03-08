@@ -28,9 +28,9 @@ options(browserNLdisabled = TRUE,
 # .libPaths(c("~/libs/R", libPath_def))
 
 # Repositories
-#options(repos=c("http://cran.rstudio.com/",
-#                "https://cran.us.r-project.org")
-#)
+options(repos=c("https://cloud.r-project.org",
+                "https://mirror.las.iastate.edu/CRAN/")
+)
 
 # Add more packages on starup
 #local({
