@@ -23,14 +23,14 @@ options(browserNLdisabled = TRUE,
         deparse.max.lines = 2)
 
 # set default library
-.libPaths(c("~/libs/R",.libPaths()))
-#libPath_def <- .libPaths()[grepl("R.framework", .libPaths())]
-#.libPaths(c("~/libs/R", libPath_def))
+# .libPaths(c("~/libs/R",.libPaths()))
+# libPath_def <- .libPaths()[grepl("R.framework", .libPaths())]
+# .libPaths(c("~/libs/R", libPath_def))
 
 # Repositories
-#options(repos=c("http://cran.rstudio.com/"
-#                ,"https://cran.us.r-project.org"
-#))
+options(repos=c("http://cran.rstudio.com/",
+                "https://cran.us.r-project.org")
+)
 
 # Add more packages on starup
 #local({
