@@ -141,6 +141,10 @@ prompt_context() {
   fi
 }
 
+# strack size
+ulimit -s hard
+
+
 
 ## ----------- history stuff ----------- ##
 HISTSIZE=10000

@@ -11,7 +11,10 @@ PATH="/usr/local/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # blupf90 programs path
-# export PATH="~/libs/blupf90/bin64bits:$PATH"
+export PATH="$HOME/libs/blupf90/bin:$PATH"
+
+# stack size
+ulimit -s hard
 
 # General aliases
 # The following shows the directory listing with directories
