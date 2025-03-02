@@ -10,6 +10,7 @@ PATH="/usr/local/bin:$PATH"
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+
 # blupf90 programs path
 export PATH="$HOME/libs/blupf90/bin:$PATH"
 
