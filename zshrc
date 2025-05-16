@@ -134,6 +134,23 @@ loadUCLM() {
 }
 
 
+# bashbunni pomodoro timer
+# https://gist.github.com/bashbunni/f6b04fc4703903a71ce9f70c58345106
+
+# Requires https://github.com/caarlos0/timer to be installed
+
+# Mac setup for pomo
+alias work="timer 50m && terminal-notifier -message 'Pomodoro'\
+        -title 'Work Timer is up! Take a Break 😊'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
+        
+alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+        -title 'Break is over! Get back to work 😬'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
+
+
 # change name appearence 
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then

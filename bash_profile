@@ -100,4 +100,21 @@ source $HOME/perl5/perlbrew/etc/bashrc
 # bioperl
 export PERL5LIB=${PERL5LIB}:$HOME/libs/BioPerl-1.7.8
 
+
+# bashbinni pomodoro
+# https://gist.github.com/bashbunni/f6b04fc4703903a71ce9f70c58345106
+
+# Requires https://github.com/caarlos0/timer to be installed
+
+# Mac setup for pomo
+alias work="timer 50m && terminal-notifier -message 'Pomodoro'\
+        -title 'Work Timer is up! Take a Break 😊'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
+        
+alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+        -title 'Break is over! Get back to work 😬'\
+        -appIcon '~/Pictures/pumpkin.png'\
+        -sound Crystal"
+
 ### EOF
