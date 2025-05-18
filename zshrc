@@ -114,6 +114,11 @@ alias awk='gawk'
 # workdir
 alias wkdir='/Users/manuel/Work/PROJECTS/'
 
+# servers
+alias cersyra='manuel@10.132.20.184'
+alias cesga='csmgrmrf@ft3.cesga.es'
+
+
 # function to explore pedfiles
 headped () {
   head $1 | cut -d' ' -f1-12

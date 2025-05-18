@@ -29,13 +29,21 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[35m\]\h \[\033[33;1m\]\W\[\033[m\] $
 #export PS1="\u@\h:\w\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+
 #alias ls='ls -GFh'
 alias ls='ls -Gh'
 alias ll='ls -lth'
+
 # awk is gawk
 alias awk='gawk'
+
 # shortcut to work directory
 alias wkdir='cd /Users/manuel/Work/PROJECTS/'
+
+# servers
+alias cersyra='manuel@10.132.20.184'
+alias cesga='csmgrmrf@ft3.cesga.es'
+
 # function to explore ped files
 headped () {
   head $1 | cut -d' ' -f1-12
