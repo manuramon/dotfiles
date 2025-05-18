@@ -1,0 +1,16 @@
+# CESGA
+Host ft3.cesga.es
+  HostName ft3.cesga.es
+  MACs hmac-sha2-512
+
+# CESGA v2
+Host cesga
+  HostName ft3.cesga.es
+  User csmgrmrf
+  MACs hmac-sha2-512
+
+# CERSYRA server
+Host cersyra
+  HostName 10.132.20.184
+  User manuel
+

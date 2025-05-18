@@ -40,9 +40,9 @@ alias awk='gawk'
 # shortcut to work directory
 alias wkdir='cd /Users/manuel/Work/PROJECTS/'
 
-# servers
-alias cersyra='manuel@10.132.20.184'
-alias cesga='csmgrmrf@ft3.cesga.es'
+# servers (doesn't work, edit ~/.ssh/config instead)
+# alias cersyra='manuel@10.132.20.184'
+# alias cesga='csmgrmrf@ft3.cesga.es'
 
 # function to explore ped files
 headped () {
