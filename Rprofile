@@ -77,5 +77,4 @@ setHook(packageEvent("grDevices", "onLoad"),
 #}
 
 
-
 ### EOF
