@@ -7,6 +7,7 @@
 
 PATH="/usr/local/bin:$PATH"
 
+
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
