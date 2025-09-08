@@ -35,6 +35,9 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -Gh'
 alias ll='ls -lth'
 
+# alias grep color
+alias grep='grep --color=auto'
+
 # awk is gawk
 alias awk='gawk'
 
