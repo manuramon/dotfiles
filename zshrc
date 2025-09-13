@@ -104,9 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ls='ls -Gh'
+alias ls='ls -Gh --color=auto'
 alias la='ls -A'
-alias ll='ls -lth'
+alias ll='ls -lth --color=auto'
 
 # awk & gawk
 alias awk='gawk'
