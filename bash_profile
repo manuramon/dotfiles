@@ -5,6 +5,7 @@
 # directory under the home dir. This ads them to the path.
 # export PATH="~/bin:/usr/local/sbin:$PATH"
 
+
 PATH="/usr/local/bin:$PATH"
 
 
