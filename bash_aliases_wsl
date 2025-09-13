@@ -1,0 +1,5 @@
+# windows dir
+alias wkdir='cd /mnt/c/WORK/'
+
+# awk is gawk
+alias awk='gawk'
