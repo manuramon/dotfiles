@@ -46,7 +46,8 @@ options(repos=c("https://cloud.r-project.org",
 # put something this is your .Rprofile to customize the defaults
 setHook(packageEvent("grDevices", "onLoad"),
         function(...) grDevices::quartz.options(width = 4, height = 4,
-                                                pointsize = 10))
+                                                pointsize = 10,
+                                                type="cairo"))
 
 # setHook(packageEvent("grDevices", "onLoad"),
 #         function(...) grDevices::windows.options(width=8, height=8,
@@ -54,6 +55,19 @@ setHook(packageEvent("grDevices", "onLoad"),
 #                                                  #type="nbcairo"))  # Cairo device
 #                                                  #type="cairo"))    # other Cairo dev
 #                                                  type="xlib"))      # old default
+
+# quit function with no-save option
+# Source - https://stackoverflow.com/a
+# Posted by Joshua Ulrich, modified by community. See post 'Timeline' for change history
+# Retrieved 2026-01-14, License - CC BY-SA 3.0
+utils::assignInNamespace(
+  "q", 
+  function(save = "no", status = 0, runLast = TRUE) 
+  {
+    .Internal(quit(save, status, runLast))
+  }, 
+  "base"
+)
 
 # From Vince Buffalo Github
 .reset <- function() system(sprintf("kill -WINCH %d", Sys.getpid()))
