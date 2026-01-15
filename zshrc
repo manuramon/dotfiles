@@ -205,3 +205,10 @@ unset __conda_setup
 
 # Created by `pipx` on 2025-09-13 06:58:05
 export PATH="$PATH:/Users/manuel/.local/bin"
+
+# Added by Antigravity
+export PATH="/Users/manuel/.antigravity/antigravity/bin:$PATH"
+
+
+# add nano path
+#export PATH="/opt/homebrew/bin:$PATH"

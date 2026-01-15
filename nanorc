@@ -1,0 +1,9 @@
+# Syntax highlighting (from the previous step)
+include "/opt/homebrew/share/nano/*.nanorc"
+
+# Editor Improvements
+set linenumbers
+set mouse
+set softwrap
+set indicator
+set autoindent
