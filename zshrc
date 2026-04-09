@@ -163,6 +163,7 @@ prompt_context() {
   fi
 }
 
+
 # strack size
 ulimit -s hard
 
